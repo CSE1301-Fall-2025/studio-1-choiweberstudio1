@@ -9,14 +9,15 @@ import java.util.Scanner;
 public class HiFour {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
-		System.out.print("Enter value for arg 0: ");
+		System.out.print("First group member, what's your name?");
 		String s0 = in.nextLine();
-		System.out.print("Enter value for arg 1: ");
+		System.out.print("Second group member, what's your name?");
 		String s1 = in.nextLine();
-		System.out.print("Enter value for arg 2: ");
+		System.out.print("Third group member, what's your name?");
 		String s2 = in.nextLine();
-		System.out.print("Enter value for arg 3: ");
+		System.out.print("Fourth group member, what's your name? ");
 		String s3 = in.nextLine();
+		System.out.print("Greetings " + s0 + ", " + s1 + ", " + s2 + ", and " + s3);
 		//
 		// Say hello to the names in s0 through s3.
 		//
